@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="scalaws"
+		module="scalaws_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20131219012006"/>
+	<dependencies>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110117012147" resolver="public" artresolver="public" homepage="http://commons.apache.org/lang/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<metadata-artifact status="successful" details="" size="17494" time="539" location="/home/sonicmy/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="true" original-local-location="/home/sonicmy/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="scalaws" name="scalaws_2.10" conf="test, compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="successful" details="" size="284220" time="961" location="/home/sonicmy/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.3" status="release" pubdate="20130927134454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/home/sonicmy/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom"/>
+				<caller organisation="scalaws" name="scalaws_2.10" conf="test, compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126003" time="0" location="/home/sonicmy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
