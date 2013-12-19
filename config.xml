@@ -1,0 +1,4 @@
+<config>
+<url>http://blogs.yandex.ru/search.rss?text=</url>
+<threadPoolSize>2</threadPoolSize>
+</config>
